@@ -14,6 +14,20 @@ class SnacksService {
 
     // console.log('total money now $', AppState.totalMoney)
   }
+
+
+  selectSnack(snackName) {
+    const selectedSnack = AppState.snacks.find(s => s.name == snackName)
+
+    AppState.boughtSnack = selectedSnack
+  }
+
+
+
+
+
+
+
 }
 
 

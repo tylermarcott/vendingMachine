@@ -17,8 +17,8 @@ export class Snack {
         <img src="${this.imgUrl}" alt="snack.img">
         <div>${this.name}</div>
         <div>${this.price}</div>
-        <button class="button">Buy!</button>
-    `
+        <button class="button" onclick="app.SnackController.buySnack('${this.name}')">Buy!</button>
+      `
   }
 
 

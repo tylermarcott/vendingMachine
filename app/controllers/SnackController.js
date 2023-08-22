@@ -44,23 +44,20 @@ export class SnackController {
     console.log(listContent)
   }
 
+  // TODO: for purchasing snacks, I have to make it so the onclick for the specific buy button of the specific snack is passed into my buySnack() function. This name is then passed to our service so we can find and buy the snack.
 
+  buySnack(snackName) {
 
+    // TODO: ok, so I forgot to put quotes around my snackname in my template, that was making it so it was just mustard, which is just an undefined var, instead of passing the sting 'mustard'. Now, I get my console log below. I just have to continue on. Make sure that the snacks are being added to an array properly, check class model.
 
+    console.log(snackName)
 
+    snacksService.selectSnack(snackName)
 
-
-
-
-  chooseSnack(snackName) {
-    console.log('selecting', snackName)
   }
 
 
 
 
 
-
-
 }
-
