@@ -13,8 +13,8 @@ export const router = [
 
       <section class="row justify-content-end" id="total-money"></section>
 
-      <section class="row justify-content-end">
-        <div class="col-6 col-md-3" id="snacks-list"></div>
+      <section class="row" id="snacks-list">
+
       </section>
     `
   },

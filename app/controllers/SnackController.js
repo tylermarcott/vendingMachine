@@ -10,6 +10,7 @@ export class SnackController {
 
     // NOTE: calling this so it draws they html out instead of starting with nothing.
     this.drawMoney()
+    this.drawSnacks()
   }
 
 
@@ -39,7 +40,17 @@ export class SnackController {
     snacks.forEach(s => listContent += s.ListTemplate)
 
     setHTML('snacks-list', listContent)
+
+    console.log(listContent)
   }
+
+
+
+
+
+
+
+
 
   chooseSnack(snackName) {
     console.log('selecting', snackName)

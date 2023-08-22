@@ -8,17 +8,16 @@ export class Snack {
     this.imgUrl = snack.imgUrl
   }
 
+  // FIXME: this layout is a little wonky lol
 
   // NOTE: this is the template used to draw each of our snacks on the page
   get ListTemplate() {
     return `
-      <div class="col-6">
+      <div class="col-12">
+        <img src="${this.imgUrl}" alt="snack.img">
         <div>${this.name}</div>
         <div>${this.price}</div>
-      </div>
-      <div class="col-6">
         <button class="button">Buy!</button>
-      </div>
     `
   }
 
