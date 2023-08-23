@@ -21,6 +21,14 @@ export class Snack {
       `
   }
 
+  get BuyListTemplate() {
+    return `
+      <div>Purchased:</div>
+      <div>${this.name} for $</div>
+      <div>${this.price}</div>
+    
+    `
+  }
 
 
 

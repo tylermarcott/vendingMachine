@@ -36,6 +36,8 @@ class ObservableAppState extends EventEmitter {
   totalMoney = 0
 
 
+  // array of user's purchased snacks
+  //TODO: now we are adding our instances of purchased snacks from service to the array here. Now what do we do? We have to use a template to draw the bought snacks to the page, and perform some business logic. 
   boughtSnack = []
 
 

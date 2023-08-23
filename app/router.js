@@ -15,6 +15,8 @@ export const router = [
 
       <section class="row" id="snacks-list">
 
+      <section class="row" id="purchased-snacks">
+
       </section>
     `
   },
